@@ -1,0 +1,167 @@
+h4{
+    
+    font-weight: 100;
+    
+    
+}
+
+.box-transition{
+    background-color:rgb(20, 37, 53);
+    height: 120px;
+    width: 500px;
+
+}
+
+
+li{
+    color: white;
+    padding: 10px;
+    list-style-type: none;
+}   
+
+li:before{
+    
+    content: "✅";
+
+}
+
+.transform{
+    background-color: rgb(20, 37, 53);
+    width: 800px;
+    height: 120px;
+    display: flex;
+}
+
+.box{
+    display: flex;
+    width: 100px;
+    height: 80px;
+    background-color: black;
+    margin: 25px;
+
+    animation: skew 3s infinite;
+  transform: skew(20deg);
+  animation-direction: alternate;
+  opacity: 0.7;
+}
+@keyframes skew {
+  0% {
+    transform: skewX(20deg);
+  }
+  100% {
+    transform: skewX(-20deg);
+  }
+}
+
+.images{
+   display: flex;
+    width: 2000px;
+    height: 500px;
+    
+}
+
+.marvel{
+    display: flex;
+    width: 99%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.dc{
+    display: flex;
+    width: 99%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.starwars{
+ 
+    display: flex;
+    width: 99%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.Marvel-row{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start
+}
+
+
+.marvel2{
+    display: flex;
+    width: 415px;
+    height: 250px;
+    margin-bottom: 5px;
+
+}
+
+.textmarvel{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.dc-row{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start
+
+}
+
+.dctext{
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.dc2{
+
+    width: 415px;
+    height: 250px;
+    margin-bottom: 5px;
+}
+
+.starwars-row{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+.starwars2{
+
+    width: 500px;
+    height: 250px;
+
+}
+
+.starwarstext{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+
